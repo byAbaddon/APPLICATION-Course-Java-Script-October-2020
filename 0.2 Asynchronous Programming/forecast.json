@@ -1,0 +1,80 @@
+{  
+	"location" : {
+      "a": { "name": "London", "code": 1 },
+      "b" :{ "name": "New York", "code": 0 },
+      "c" :{ "name": "Barcelona", "code": 2 }
+      },
+      
+     "weather" : {
+       	"0" :  {
+	        "0" : {
+        		"low": 22,
+             	"high": 33,
+              	"condition": "Partly sunny"   	 
+     		   },
+     		   
+     		 "1" : {
+        		"low": 11,
+             	"high": 14,
+              	"condition": "Rain"   	 
+     		   },
+     		   
+     		  "2" : {
+        		"low": -1,
+             	"high": 10,
+              	"condition": "Rain"   	 
+     		   }
+       },
+             
+        
+		"1" :  {
+	        "0" : {
+        		"low": 22,
+             	"high": 33,
+              	"condition": "Sunny"   	 
+     		   },
+     		   
+     		 "1" : {
+        		"low": 12,
+             	"high": 23,
+              	"condition": "Partly sunny"   	 
+     		   },
+     		   
+     		  "2" : {
+        		"low": -1,
+             	"high": 10,
+              	"condition": "Rain"   	 
+     		   }
+       },
+       
+       "2" :  {
+	        "0" : {
+        		"low": 14,
+             	"high": 22,
+              	"condition": "Sunny"   	 
+     		   },
+     		   
+     		 "1" : {
+        		"low": 11,
+             	"high": 17,
+              	"condition": "Partly sunny"   	 
+     		   },
+     		   
+     		  "2" : {
+        		"low": 2,
+             	"high": 8,
+              	"condition": "Overcast"   	 
+     		   }
+       }
+     		 		 
+    }
+    
+    	
+}
+     
+
+
+ 
+    
+
+    
