@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+
+  <title>Authentication</title>
+</head>
+<body>
+ <section>
+  <h2>Sing Forms</h2>
+  <form id="sing-form">
+    <label for="email">Email:</label><br>
+    <input type="email" id="mail" name="email"><br><br>
+    <label for="pass">Password:</label><br>
+    <input type="password" id="pass" name="pass" minlength="6"><br><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  
+  <div class ="error">test</div>
+</section>
+
+
+<section>
+  <h2>Login Forms</h2>
+  <form id="login-form">
+    <label for="email">Email:</label><br>
+    <input type="email" id="mail" name="email"><br><br>
+    <label for="pass">Password:</label><br>
+    <input type="password" id="pass" name="pass" minlength="6"><br><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  
+  <div class ="error">test</div>
+</section>
+
+
+<section>
+  <h2>Logout Forms</h2>
+  <br>
+  <button id='logout'>Logout</button>
+  <div class ="error">test</div>
+</section>
+
+
+  <script type="module" src="app.js"></script>
+  <script type="module" src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "-MeqAxYSphQwBOducL6d": {
+        "facultyNumber": "0",
+        "firstName": "John",
+        "grade": "5.55",
+        "id": "0",
+        "lastName": "Rambo"
+    },
+    "-MeqL_4QXj0QvMH4hnUI": {
+        "facultyNumber": "0",
+        "firstName": "Ali",
+        "grade": "5.55",
+        "id": "2",
+        "lastName": "Reza"
+    },
+    "-MeqLhWZjIRViKglBST-": {
+        "facultyNumber": "0111",
+        "firstName": "Koko",
+        "grade": "6.00",
+        "id": "1",
+        "lastName": "Jambo"
+    }
+}
