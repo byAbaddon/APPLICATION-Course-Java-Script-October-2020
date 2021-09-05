@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popular Monkeys</title>
+  <script src="../handlebars.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="module" src="./monkeysTemplate.js"></script>
+</head>
+<body>
+  <section>
+    
+  </section>
+</body>
+
+<script id="template-monkey" type="text/x-handlebars-template" >
+  <h1>Most popular monkeys</h1>
+  <div class="monkeys">
+      {{#each monkeyData}}
+      {{>monkeyPartial}}
+      {{/each}}
+  </div>
+</script>
+
+
+<script id="partial-monkey" type="x-handlebars-template">
+  <div class="monkey">
+    <h2>{{name}}</h2>
+    <img src="{{image}}">
+    <button>Info</button>
+    <p style="display: none" id="{{id}}">
+        {{info}}
+    </p>
+</div>
+</script>
+
+
+</script>
+</html>
