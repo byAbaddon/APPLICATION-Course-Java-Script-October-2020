@@ -17,11 +17,9 @@ ${!localStorage.getItem('auth') ? html`
                 border: 3px solid #0d6efd;
                 padding: 5px"
          href="#/logout">Log out
-         
-        </a>
+       </a>
       <hr>
-      <br>
-    
+      <br>    
     </div>
    `}
 </div>
