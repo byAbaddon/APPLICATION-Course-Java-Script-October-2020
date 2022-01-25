@@ -1,0 +1,21 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "SinglePageApp",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "firebase": "^9.6.1",
+    "jquery": "^3.6.0",
+    "lit-html": "^2.0.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "example_user <example-user@example.com>",
+  "license": "MIT"
+}
